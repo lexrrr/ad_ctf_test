@@ -1,5 +1,5 @@
 # Use a suitable base-image.
-FROM python:3.10.9-slim
+FROM python:3.13.0b4-slim
 
 # Copy our service
 RUN apt-get update && \
